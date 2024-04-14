@@ -13,7 +13,8 @@ def read_csv_data(filepath, search_term):
                 user_name = row.get('UserName', '').lower()
                 computer_name = row.get('ComputerName', '').lower()
                 if search_term.lower() in user_name or search_term.lower() in computer_name:
-                    results.append(row)
+                    # Сортировка результатов по времени входа от новых к старым
+                    results = sorted(results, key=lambda x: x['LogonTime'], reverse=True)
     except FileNotFoundError:
         results = [{'Error': 'File not found or cannot be accessed'}]
     return results
