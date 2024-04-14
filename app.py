@@ -1,3 +1,4 @@
+from datetime import datetime
 from flask import Flask, render_template, request
 import csv
 
@@ -11,7 +12,7 @@ def read_csv_data(filepath, search_term):
             for row in reader:
                 if search_term.lower() in row.get('UserName', '').lower() or search_term.lower() in row.get('ComputerName', '').lower():
                     # Преобразование строки LogonTime в объект datetime
-                    row['LogonTime'] = datetime.strptime(row['LogonTime'], '%Y-%m-%d %H:%M:%S')
+                    row['LogonTime'] = datetime.strptime(row['LogonTime'], '%y-%m-%d %H:%M')
                     results.append(row)
             # Сортировка результатов по объектам datetime в LogonTime
             results.sort(key=lambda x: x['LogonTime'], reverse=True)
