@@ -9,14 +9,17 @@ def read_csv_data(filepath, search_term):
         with open(filepath, newline='', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
-                # Используйте .get() для получения значений без риска KeyError
-                user_name = row.get('UserName', '').lower()
-                computer_name = row.get('ComputerName', '').lower()
-                if search_term.lower() in user_name or search_term.lower() in computer_name:
-                    # Сортировка результатов по времени входа от новых к старым
-                    results = sorted(results, key=lambda x: x['LogonTime'], reverse=True)
+                if search_term.lower() in row.get('UserName', '').lower() or search_term.lower() in row.get('ComputerName', '').lower():
+                    # Преобразование строки LogonTime в объект datetime
+                    row['LogonTime'] = datetime.strptime(row['LogonTime'], '%Y-%m-%d %H:%M:%S')
+                    results.append(row)
+            # Сортировка результатов по объектам datetime в LogonTime
+            results.sort(key=lambda x: x['LogonTime'], reverse=True)
     except FileNotFoundError:
         results = [{'Error': 'File not found or cannot be accessed'}]
+    except ValueError as e:
+        print(f"Ошибка при преобразовании даты и времени: {e}")
+        # Вы можете решить, что делать в случае ошибки преобразования
     return results
 
 
