@@ -1,0 +1,517 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.109:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 519-626-244
+192.168.103.106 - - [07/Jun/2024 09:52:22] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:52:22] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [07/Jun/2024 09:52:27] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:52:36] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:52:59] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:55:08] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:55:16] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:55:42] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:55:50] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:55:53] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:56:02] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:57:25] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 09:57:55] "POST / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.109:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 518-171-604
+192.168.103.106 - - [07/Jun/2024 11:18:41] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [07/Jun/2024 11:18:44] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 08:43:35] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:29:17] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:31:20] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:31:31] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:31:33] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:31:34] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:31:36] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:31:43] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:31:45] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:31:46] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:31:53] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:32:48] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:33:32] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:33:35] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 12:57:52] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:03:36] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:17:02] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:20:58] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:21:30] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:21:34] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:21:38] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:21:54] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:22:09] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:22:16] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:23:50] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:24:02] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:24:09] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:24:19] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:26:48] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:26:52] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:26:56] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:26:59] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:27:03] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [10/Jun/2024 13:27:18] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [11/Jun/2024 03:16:32] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [11/Jun/2024 03:16:42] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [11/Jun/2024 05:28:27] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [12/Jun/2024 06:19:23] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [12/Jun/2024 06:19:24] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:22:11] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:22:13] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:22:16] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:22:16] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:22:16] "HEAD / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:22:17] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:22:17] "GET /server HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:17] "GET /.vscode/sftp.json HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:17] "GET /about HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:17] "GET /debug/default/view?panel=config HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:17] "GET /v2/_catalog HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:18] "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:18] "GET /server-status HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:18] "GET /login.action HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:18] "GET /_all_dbs HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:18] "GET /.DS_Store HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:18] "GET /.env HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:18] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:19] "GET /s/4333e2932313e26323e27333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:19] "GET /config.json HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:19] "GET /telescope/requests HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:22:19] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:22:34] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:11] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:11] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:13] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:21] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:21] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:23:24] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:25] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:25] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:25] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:23:27] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:23:28] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 15:23:28] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:46] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:23:51] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:24:03] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:24:08] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:24:42] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:27:37] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:31:37] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:42:29] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:55:29] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 15:55:30] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 17:27:46] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 18:25:01] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 18:25:01] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 18:25:01] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 18:25:03] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 18:27:26] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 20:06:45] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [13/Jun/2024 20:06:46] "GET /wordpress/ HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 21:32:54] "GET /.git/HEAD HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 21:50:19] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /.env HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /.kube/config HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /wp-admin/setup-config.php HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /feed HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /config/database.php HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /.env.production HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /config.yaml HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /backup.sql HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /config/production.json HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /config.yml HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /dump.sql HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /phpinfo.php HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /backup.tar.gz HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /server.key HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /backup.zip HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /config.json HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /wp-config.php HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /.ssh/id_rsa HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /.aws/credentials HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /config.php HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /.git/HEAD HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /.svn/wc.db HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /server-status HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /.ssh/id_ecdsa HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /config.xml HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /etc/ssl/private/server.key HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /etc/shadow HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /.ssh/id_ed25519 HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /web.config HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /docker-compose.yml HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /secrets.json HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET /database.sql HTTP/1.1" 404 -
+192.168.103.106 - - [13/Jun/2024 22:22:33] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 03:25:06] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 03:25:07] "GET /Public/home/js/check.js HTTP/1.1" 404 -
+192.168.103.106 - - [14/Jun/2024 03:25:09] "GET /static/admin/javascript/hetong.js HTTP/1.1" 404 -
+192.168.103.106 - - [14/Jun/2024 05:16:53] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 05:16:55] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [14/Jun/2024 06:15:15] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 07:21:01] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 09:15:47] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 10:20:06] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 10:36:19] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 11:22:53] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 11:36:39] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 13:04:54] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [14/Jun/2024 18:09:22] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 19:46:37] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 20:28:57] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [14/Jun/2024 21:32:28] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [14/Jun/2024 22:45:02] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [15/Jun/2024 01:20:50] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [15/Jun/2024 01:20:52] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [15/Jun/2024 02:14:10] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [15/Jun/2024 04:54:27] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [15/Jun/2024 21:14:08] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [16/Jun/2024 04:22:57] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [16/Jun/2024 04:23:09] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [16/Jun/2024 07:18:29] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 04:05:00] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 04:25:37] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 05:54:39] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 05:54:42] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [17/Jun/2024 09:36:53] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 10:54:13] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 11:24:16] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 11:24:18] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 11:24:29] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 11:26:37] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 12:33:34] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [17/Jun/2024 12:34:04] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [18/Jun/2024 00:04:38] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [18/Jun/2024 05:14:38] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [18/Jun/2024 05:20:12] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [18/Jun/2024 07:51:27] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [18/Jun/2024 09:09:07] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [18/Jun/2024 10:12:49] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [18/Jun/2024 11:50:18] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [18/Jun/2024 12:54:00] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /events../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /css../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /static../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /js../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /media../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /img../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /lib../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /content../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /images../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 08:18:07] "GET /assets../.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [19/Jun/2024 12:06:21] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [19/Jun/2024 12:06:22] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [19/Jun/2024 12:17:18] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [19/Jun/2024 12:20:47] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [20/Jun/2024 06:49:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [20/Jun/2024 06:49:04] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [20/Jun/2024 06:49:33] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [20/Jun/2024 10:57:22] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [20/Jun/2024 10:57:51] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [20/Jun/2024 10:58:00] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [20/Jun/2024 10:58:08] "POST / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.109:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 838-467-595
+192.168.103.106 - - [21/Jun/2024 08:58:44] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [21/Jun/2024 08:58:46] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [21/Jun/2024 08:58:48] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [21/Jun/2024 11:08:16] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [21/Jun/2024 11:31:29] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [21/Jun/2024 11:31:30] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [21/Jun/2024 23:01:35] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [21/Jun/2024 23:57:49] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 01:02:07] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 01:14:41] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 04:28:40] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 04:28:41] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 08:30:41] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 09:30:12] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 09:30:39] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 13:00:01] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 13:48:45] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 13:49:03] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 13:49:11] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 17:21:16] "GET /.env HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:16] "GET /api/.env HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:16] "GET /admin/.env HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:16] "GET /backup/.env HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:17] "GET /core/.env HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:17] "GET /laravel/.env HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:17] "GET /app/.env HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:17] "GET /sendgrid.env HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:18] "GET /.aws/credentials HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:18] "GET /.env.example HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:18] "GET /.env_example HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:18] "GET /.env-example HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:18] "GET /phpinfo.php HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:18] "GET /linusadmin-phpinfo.php HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:19] "GET /dashboard/phpinfo.php HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:19] "GET /php_info.php HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:19] "GET /tool/view/phpinfo.view.php HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:19] "GET /info.php HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:19] "GET /_profiler/phpinfo.php HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:20] "GET /debug/default/view?panel=config HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:20] "GET /tool/view/phpinfo.view.php HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 17:21:20] "GET /_profiler/phpinfo HTTP/1.1" 404 -
+192.168.103.106 - - [22/Jun/2024 19:17:11] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 20:26:37] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [22/Jun/2024 21:06:45] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/admin/v2/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/v3/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/admin/v3/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /alpha/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /a/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/user/v2/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /blog/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /beta/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /build/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /blog/wp-content/themes/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /cms/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/user/v3/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/v4/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/user/v1/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /backup/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /application/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /aomanalyzer/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /admin/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/v1/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/admin/v1/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/v2/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /amphtml/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/user/v4/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /app/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /api/admin/v4/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:36] "GET /common/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /config/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /database/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /data/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /demo/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /developer/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /flock/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /dev/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /gateway/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /git/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /includes/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /live/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /__MACOSX/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /m/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /new/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /node_modules/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /old-cuburn/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /public/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /qa/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /repos/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /repository/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /s3/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /samples/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /shop/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /site/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /src/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /staging/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /static/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /wp-content/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /v3/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /test/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /store/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /wp-content/plugins/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /wp-content/themes/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /v1/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /wp-includes/js/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /web/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /v2/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /wiki/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /user/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 04:21:37] "GET /vendor/.git/config HTTP/1.1" 404 -
+192.168.103.106 - - [23/Jun/2024 11:09:42] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [23/Jun/2024 11:09:43] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [23/Jun/2024 11:33:10] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [23/Jun/2024 12:21:25] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [23/Jun/2024 14:55:34] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [23/Jun/2024 14:55:38] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [23/Jun/2024 17:06:29] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [23/Jun/2024 17:07:06] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [23/Jun/2024 23:23:01] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 00:19:12] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 00:19:15] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [24/Jun/2024 02:19:27] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 02:54:04] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 08:23:56] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 08:38:04] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 08:38:04] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [24/Jun/2024 08:38:09] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 08:38:11] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 08:38:23] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 08:39:54] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 08:40:11] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 08:40:18] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 08:40:37] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 09:56:38] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [24/Jun/2024 13:19:48] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [25/Jun/2024 05:34:02] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [25/Jun/2024 07:53:27] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [25/Jun/2024 11:56:21] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [25/Jun/2024 13:55:22] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [25/Jun/2024 18:20:54] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [25/Jun/2024 20:12:22] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [25/Jun/2024 20:16:55] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [25/Jun/2024 23:46:42] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [26/Jun/2024 01:33:59] "GET /wp-json/?rest_route=/wp/v2/USERS HTTP/1.1" 404 -
+192.168.103.106 - - [26/Jun/2024 01:34:00] "GET /wp-json/?rest_route=/wp/v2/USERS HTTP/1.1" 404 -
+192.168.103.106 - - [26/Jun/2024 01:34:03] "GET /wp-json/?rest_route=/wp/v2/USERS HTTP/1.1" 404 -
+192.168.103.106 - - [26/Jun/2024 01:34:10] "GET /wp-json/?rest_route=/wp/v2/USERS HTTP/1.1" 404 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.109:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 842-518-890
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.109:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 842-518-890
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.109:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 842-518-890
+192.168.103.106 - - [26/Jun/2024 09:17:45] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [26/Jun/2024 09:17:52] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [26/Jun/2024 10:59:06] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [26/Jun/2024 16:47:20] "GET /.env HTTP/1.1" 404 -
+192.168.103.106 - - [27/Jun/2024 05:09:32] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [27/Jun/2024 05:09:36] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [27/Jun/2024 09:04:30] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [27/Jun/2024 13:42:30] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [27/Jun/2024 13:42:37] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [27/Jun/2024 14:32:23] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [27/Jun/2024 22:14:00] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [28/Jun/2024 05:44:32] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [28/Jun/2024 05:44:33] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [28/Jun/2024 06:27:02] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [28/Jun/2024 08:49:46] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [28/Jun/2024 12:26:15] "POST / HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.109:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-252-524
+192.168.103.106 - - [09/Jul/2024 11:39:15] "POST / HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 11:39:15] "GET /login?next=/ HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:40:25] "POST /login HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 11:40:25] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:40:29] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:40:35] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:40:41] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:40:44] "GET /login?next=/ HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:40:49] "POST /login HTTP/1.1" 200 -
+ * Detected change in '/mnt/share/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 537-252-524
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.109:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 808-594-546
+192.168.103.106 - - [09/Jul/2024 11:44:37] "POST /login HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:44:42] "POST /login HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:44:48] "POST /login HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 11:44:48] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:44:53] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:45:01] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:46:25] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:47:07] "GET / HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 11:47:07] "GET /login?next=/ HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:47:07] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.103.106 - - [09/Jul/2024 11:47:28] "POST /login HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:47:42] "POST /login HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 11:47:42] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:48:15] "GET / HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 11:48:15] "GET /login?next=/ HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:48:37] "POST /login HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 11:48:37] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 11:48:42] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 12:01:12] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 12:01:16] "POST /login HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 12:01:25] "POST /login HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 12:01:32] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 12:01:48] "GET / HTTP/1.1" 200 -
+ * Detected change in '/mnt/share/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 808-594-546
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.103.109:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 950-357-923
+192.168.103.106 - - [09/Jul/2024 12:11:15] "POST /logout HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 12:11:15] "GET /login HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 12:11:22] "POST /login HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 12:11:22] "GET / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 12:11:24] "POST / HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 12:14:11] "POST /logout HTTP/1.1" 302 -
+192.168.103.106 - - [09/Jul/2024 12:14:11] "GET /login HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 12:59:53] "GET /login HTTP/1.1" 200 -
+192.168.103.106 - - [09/Jul/2024 16:12:44] "GET / HTTP/1.1" 302 -

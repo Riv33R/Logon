@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Просмотр логов</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 20px;
+
+            background-color: #f0f0f0;
+
+        }
+
+        h1 {
+
+            color: #333;
+
+        }
+
+        form {
+
+            margin-bottom: 20px;
+
+        }
+
+        input[type="text"] {
+
+            padding: 10px;
+
+            width: 300px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 4px;
+
+        }
+
+        button {
+
+            padding: 10px 15px;
+
+            background-color: #28a745;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 4px;
+
+            cursor: pointer;
+
+        }
+
+        button:hover {
+
+            background-color: #218838;
+
+        }
+
+        table {
+
+            width: 100%;
+
+            border-collapse: collapse;
+
+            background-color: white;
+
+        }
+
+        table, th, td {
+
+            border: 1px solid #ddd;
+
+        }
+
+        th, td {
+
+            padding: 12px;
+
+            text-align: left;
+
+        }
+
+        th {
+
+            background-color: #f2f2f2;
+
+        }
+
+        tr:hover {
+
+            background-color: #f1f1f1;
+
+        }
+
+        .logout-button {
+
+            padding: 10px 15px;
+
+            background-color: #dc3545;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 4px;
+
+            cursor: pointer;
+
+        }
+
+        .logout-button:hover {
+
+            background-color: #c82333;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Просмотр логов</h1>
+
+    <form method="POST" action="/">
+
+        <input type="text" name="search" placeholder="Поиск по имени ПК и пользователя">
+
+        <button type="submit">Поиск</button>
+
+    </form>
+
+
+    <form method="POST" action="/logout">
+
+        <button type="submit" class="logout-button">Logout</button>
+
+    </form>
+
+
+    {% if results %}
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Дата</th>
+
+                    <th>Пользователь</th>
+
+                    <th>Имя компьютера</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                {% for log in results %}
+
+                    <tr>
+
+                        <td>{{ log['LogonTime'] }}</td>
+
+                        <td>{{ log['UserName'] }}</td>
+
+                        <td>{{ log['ComputerName'] }}</td>
+
+                    </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    {% else %}
+
+        <p>Результатов не найдено</p>
+
+    {% endif %}
+
+</body>
+
+</html>
+
