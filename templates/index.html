@@ -1,55 +1,60 @@
 <!doctype html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="style.css" />
 
-        <title>Просмотр логов</title>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/static/style.css" />
 
-    <body>
-        <h1>Просмотр логов</h1>
+    <title>Просмотр логов</title>
+</head>
 
-        <form method="POST" action="/">
-            <input type="text" name="search" placeholder="Поиск по имени ПК и пользователя" />
+<body>
+    <h1>Просмотр логов</h1>
+    <form method="post" action="/logout">
+        <button type="submit" class="logout-button">Выход</button>
+    </form>
 
-            <button type="submit">Поиск</button>
-            <button type="submit" class="logout-button">Выход</button>
-        </form>
+    <form method="POST" action="/">
+        <input type="text" name="search" placeholder="Поиск по имени ПК и пользователя" />
+        <button type="submit">Поиск</button>
+    </form>
 
-        {% if results %}
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Дата</th>
 
-                    <th>Пользователь</th>
+    {% if results %}
 
-                    <th>Имя компьютера</th>
-                </tr>
-            </thead>
+    <table>
+        <thead>
+            <tr>
+                <th>Дата</th>
 
-            <tbody>
-                {% for log in results %}
+                <th>Пользователь</th>
 
-                <tr>
-                    <td>{{ log['LogonTime'] }}</td>
+                <th>Имя компьютера</th>
+            </tr>
+        </thead>
 
-                    <td>{{ log['UserName'] }}</td>
+        <tbody>
+            {% for log in results %}
 
-                    <td>{{ log['ComputerName'] }}</td>
-                </tr>
+            <tr>
+                <td>{{ log['LogonTime'] }}</td>
 
-                {% endfor %}
-            </tbody>
-        </table>
+                <td>{{ log['UserName'] }}</td>
 
-        {% else %}
+                <td>{{ log['ComputerName'] }}</td>
+            </tr>
 
-        <p class="warning">Результатов не найдено</p>
+            {% endfor %}
+        </tbody>
+    </table>
 
-        {% endif %}
-    </body>
+    {% else %}
+
+    <p class="warning">Результатов не найдено</p>
+
+    {% endif %}
+</body>
+
 </html>
