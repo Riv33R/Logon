@@ -1,116 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
+    <head>
+        <title>Вход</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<head>
+    <body>
+        <div style="border: calc" class="login-container">
+            <h1>Вход</h1>
 
-    <meta charset="UTF-8">
+            <form method="POST" action="/login">
+                {{ form.hidden_tag() }} {{ form.username.label }}<br />
 
-    <title>Вход</title>
+                <input type="text" placeholder="Логин" {{ form.username(size="32)" }} />
 
-    <style>
+                <!--{{ form.username(size=32) }}<br />-->
 
-        body {
+                {{ form.password.label }}<br />
 
-            font-family: Arial, sans-serif;
+                <input type="text" placeholder="Пароль" {{ form.password(size="32)" }} />
 
-            margin: 20px;
+                <!--{{ form.password(size=32) }}<br />-->
 
-            background-color: #f0f0f0;
-
-        }
-
-        .login-container {
-
-            max-width: 400px;
-
-            margin: auto;
-
-            padding: 20px;
-
-            background-color: white;
-
-            border: 1px solid #ccc;
-
-            border-radius: 4px;
-
-        }
-
-        h1 {
-
-            text-align: center;
-
-            color: #333;
-
-        }
-
-        input[type="text"], input[type="password"] {
-
-            width: calc(100% - 22px);
-
-            padding: 10px;
-
-            margin-bottom: 10px;
-
-            border: 1px solid #ccc;
-
-            border-radius: 4px;
-
-        }
-
-        button {
-
-            width: 100%;
-
-            padding: 10px;
-
-            background-color: #28a745;
-
-            color: white;
-
-            border: none;
-
-            border-radius: 4px;
-
-            cursor: pointer;
-
-        }
-
-        button:hover {
-
-            background-color: #218838;
-
-        }
-
-    </style>
-
-</head>
-
-<body>
-
-    <div class="login-container">
-
-        <h1>Вход</h1>
-
-        <form method="POST" action="/login">
-
-            {{ form.hidden_tag() }}
-
-            {{ form.username.label }}<br>
-
-            {{ form.username(size=32) }}<br>
-
-            {{ form.password.label }}<br>
-
-            {{ form.password(size=32) }}<br>
-
-            {{ form.submit() }}
-
-        </form>
-
-    </div>
-
-</body>
-
+                <button type="submit" {{ form.submit() }}>Вход</button>
+            </form>
+        </div>
+    </body>
 </html>
-
