@@ -15,9 +15,9 @@
         <form method="POST" action="/login">
             {{ form.hidden_tag() }}
 
-            <input style="width: 380px;" type="text" placeholder="Логин" {{ form.username }} <br>
+            <input class="loginform" type="text" placeholder="Логин" {{ form.username }} <br>
 
-            <input style="width: 380px;" type="text" placeholder="Пароль" {{ form.password }}<br>
+            <input class="loginform" type="text" placeholder="Пароль" {{ form.password }}<br>
 
             <button style="margin-top: 10px;" type="submit" {{form.submit() }} Вход</button>
         </form>
