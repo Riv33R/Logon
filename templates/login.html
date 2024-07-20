@@ -1,27 +1,27 @@
 <!doctype html>
 
 <html lang="en">
+    
+    <head>
+        <title>Вход</title>
+        <label><img src="/templates/logo.png" alt=""></label>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="/static/style.css" />
+    </head>
 
-<head>
-    <title>Вход</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/static/style.css" />
-</head>
+    <body>
+        <div style="border: 5px" class="login-container">
+            <h1>Вход</h1>
 
-<body>
-    <div style="border: 5px" class="login-container">
-        <h1>Вход</h1>
+            <form method="POST" action="/login">
+                {{ form.hidden_tag() }}
 
-        <form method="POST" action="/login">
-            {{ form.hidden_tag() }}
+                <input style="margin-top: 10px; width: 380px;" type="text" placeholder="Логин" {{ form.username }} <br>
 
-            <input class="loginform" type="text" placeholder="Логин" {{ form.username }} <br>
+                <input style="margin-top: 10px; width: 380px;" type="text" placeholder="Пароль" {{ form.password }}<br>
 
-            <input class="loginform" type="text" placeholder="Пароль" {{ form.password }}<br>
-
-            <button style="margin-top: 10px;" type="submit" {{form.submit() }} Вход</button>
-        </form>
-    </div>
-</body>
-
+                <button style="margin-top: 10px" type="submit" {{form.submit() }} Вход </button>
+            </form>
+        </div>
+    </body>
 </html>
