@@ -1,23 +1,21 @@
+# Игнорируем папки кэша и временные файлы
 __pycache__/
+*.py[cod]
 
-*.pyc
-
-*.pyo
-
-*.pyd
-
-*.db
-
-instance/
-
-.env
-
-.DS_Store
-
-.vscode/
-
-.idea/
-
-*.sqlite3
-
+# Игнорируем выводы и резервные файлы
+nohup.out
+*.bk*
 *.csv
+
+# Игнорируем системные файлы IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Игнорируем файлы конфигурации ОС
+.DS_Store
+Thumbs.db
+
+# Игнорируем настройки git
+.gitignore.git

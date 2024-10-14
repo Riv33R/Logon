@@ -1,116 +1,50 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 
 <head>
-
-    <meta charset="UTF-8">
-
-    <title>Login</title>
-
-    <style>
-
-        body {
-
-            font-family: Arial, sans-serif;
-
-            margin: 20px;
-
-            background-color: #f0f0f0;
-
-        }
-
-        .login-container {
-
-            max-width: 400px;
-
-            margin: auto;
-
-            padding: 20px;
-
-            background-color: white;
-
-            border: 1px solid #ccc;
-
-            border-radius: 4px;
-
-        }
-
-        h1 {
-
-            text-align: center;
-
-            color: #333;
-
-        }
-
-        input[type="text"], input[type="password"] {
-
-            width: calc(100% - 22px);
-
-            padding: 10px;
-
-            margin-bottom: 10px;
-
-            border: 1px solid #ccc;
-
-            border-radius: 4px;
-
-        }
-
-        button {
-
-            width: 100%;
-
-            padding: 10px;
-
-            background-color: #28a745;
-
-            color: white;
-
-            border: none;
-
-            border-radius: 4px;
-
-            cursor: pointer;
-
-        }
-
-        button:hover {
-
-            background-color: #218838;
-
-        }
-
-    </style>
-
+    <title>Вход</title>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="../static/style.css" />
 </head>
 
 <body>
-
-    <div class="login-container">
-
-        <h1>Login</h1>
-
-        <form method="POST" action="/login">
-
+    <button style="margin: 0 0 1rem 0; float: right;" id="theme-toggle">Переключить тему</button>
+    <div class="login-container" style="border: 5px">
+        <h1>Вход</h1>
+        <form class="loginbox" method="POST" action="/login">
             {{ form.hidden_tag() }}
-
-            {{ form.username.label }}<br>
-
-            {{ form.username(size=32) }}<br>
-
-            {{ form.password.label }}<br>
-
-            {{ form.password(size=32) }}<br>
-
-            {{ form.submit() }}
-
+            <input class="loginline" type="text" placeholder="Логин" {{ form.username }}<br>
+            <input class="loginline" type="password" placeholder="Пароль" {{ form.password }}<br>
+            <button type="submit" {{ form.submit() }} Вход</button>
         </form>
-
     </div>
 
+    <script>
+        // При загрузке страницы
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle');
+            const body = document.body;
+
+            // Проверяем, есть ли сохранённая тема
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                body.classList.add(savedTheme);
+            }
+
+            // Переключение темы
+            themeToggle.addEventListener('click', () => {
+                if (body.classList.contains('dark-theme')) {
+                    body.classList.remove('dark-theme');
+                    localStorage.setItem('theme', ''); // Очищаем тему
+                } else {
+                    body.classList.add('dark-theme');
+                    localStorage.setItem('theme', 'dark-theme'); // Сохраняем тёмную тему
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
-

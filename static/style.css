@@ -1,0 +1,201 @@
+/* Основные стили */
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --table-background-color: #ffffff;
+  --table-text-color: #000000;
+  --table-header-background: #f2f2f2;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Тёмная тема */
+body.dark-theme {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --table-background-color: #1f1f1f;
+  --table-text-color: #ffffff;
+  --table-header-background: #333;
+}
+
+h1 {
+  color: var(--text-color);
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="confirm_password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  transition: border-radius 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+	border-radius: 20px;
+}
+
+table {
+  width: 70%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  background-color: var(--table-background-color);
+  color: var(--table-text-color);
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--table-header-background);
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+body.dark-theme tr:hover {
+  background-color: #333;
+}
+
+.logout-button {
+  background-color: red;
+  cursor: pointer;
+  float: right;
+  position: sticky;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+	
+}
+
+.warning {
+  font-size: 14px;
+  margin: 1rem 15% !important;
+  width: auto;
+  height: 2rem;
+  text-align: center;
+  align-content: center;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  border-color: red;
+}
+
+.linedisplay {
+  width: 90vh;
+  display: inline-block;
+}
+
+.tabl {
+  display: flex;	
+  margin: 0 5%;
+}
+
+.login-container {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 35rem;
+  height: auto;
+  border: 1px solid var(--text-color) !important;
+  border-radius: 10px;
+  display: table;
+}
+
+/* Мобильные стили */
+@media (max-width: 768px) {
+  body {
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 100%;
+	  display: flex;
+	  justify-content: center;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+	display: block;
+	margin: 0.5rem 0 0.5rem 0 !important;
+  }
+
+  .tabl {
+    width: 95%;
+    flex-direction: column;
+    text-align: center;
+	justify-content: center; /* Центрирование элементов */
+	flex-wrap: wrap; /* Добавляем, чтобы элементы переносились на новую строку */
+  }
+
+  .linedisplay {
+    width: 85%;
+  }
+
+  table {
+	box-sizing: content-box;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  .login-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
+
+
+.loginline {
+	width: 15rem;
+	margin-top: 1rem;
+}
+
+.loginbox {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+	align-items: center;
+}
