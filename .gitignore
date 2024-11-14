@@ -19,3 +19,4 @@ Thumbs.db
 
 # Игнорируем настройки git
 .gitignore.git
+.out
