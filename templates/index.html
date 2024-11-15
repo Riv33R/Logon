@@ -1,96 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../static/style.css" />
-    <link
-      rel="shortcut icon"
-      href="{{ url_for('static', filename='favicon.ico') }}"
-    />
-    <title>Просмотр логов</title>
-  </head>
 
-  <body>
-    <h1>Логи</h1>
-    <div>
-      <form method="post" action="/logout">
-        <button
-          style="margin-right: 0 !important"
-          type="submit"
-          class="logout-button"
-        >
-          Выход
-        </button>
-      </form>
-      <form method="GET" action="/users">
-        <button
-          style="margin: 0 1rem 0 0; float: right"
-          href="{{ url_for('users') }}"
-        >
-          Пользователи
-        </button>
-      </form>
-      <button style="margin: 0 1rem 0 0; float: right" id="theme-toggle">
-        Переключить тему
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../static/style.css" />
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+  <title>Просмотр логов</title>
+</head>
+
+<body>
+  <h1>Логи</h1>
+  <div>
+    <form method="post" action="/logout">
+      <button style="margin-right: 0 !important" type="submit" class="logout-button">
+        Выход
       </button>
-      <form method="POST" action="/">
-        <div style="float: inline-grid">
-          <input
-            style="width: auto"
-            type="text"
-            name="search"
-            placeholder="Поиск по имени ПК и пользователя"
-          />
-          <button style="width: auto" type="submit">Поиск</button>
-        </div>
-      </form>
-    </div>
-    {% if results %}
-    <table>
-      <thead>
-        <tr>
-          <th>Дата</th>
-          <th>Пользователь</th>
-          <th>Имя компьютера</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for log in results %}
-        <tr>
-          <td>{{ log['LogonTime'] }}</td>
-          <td>{{ log['UserName'] }}</td>
-          <td>{{ log['ComputerName'] }}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    {% else %}
-    <p class="warning">Результатов не найдено</p>
-    {% endif %}
-    <script>
-      // При загрузке страницы
-      document.addEventListener("DOMContentLoaded", () => {
-        const themeToggle = document.getElementById("theme-toggle");
-        const body = document.body;
+    </form>
+    <form method="GET" action="/users">
+      <button style="margin: 0 1rem 0 0; float: right" href="{{ url_for('users') }}">
+        Пользователи
+      </button>
+    </form>
+    <button style="margin: 0 1rem 0 0; float: right" id="theme-toggle">
+      Переключить тему
+    </button>
+    <form method="POST" action="/">
+      <div style="float: inline-grid">
+        <input style="width: auto" type="text" name="search" placeholder="Поиск по имени ПК и пользователя" />
+        <button style="width: auto" type="submit">Поиск</button>
+      </div>
+    </form>
+  </div>
+  {% if results %}
+  <table>
+    <thead>
+      <tr>
+        <th>Дата</th>
+        <th>Пользователь</th>
+        <th>Имя компьютера</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for log in results %}
+      <tr>
+        <td>{{ log['LogonTime'] }}</td>
+        <td>{{ log['UserName'] }}</td>
+        <td>{{ log['ComputerName'] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="warning">Результатов не найдено</p>
+  {% endif %}
+  <script>
+    // При загрузке страницы
+    document.addEventListener("DOMContentLoaded", () => {
+      const themeToggle = document.getElementById("theme-toggle");
+      const body = document.body;
 
-        // Проверяем, есть ли сохранённая тема
-        const savedTheme = localStorage.getItem("theme");
-        if (savedTheme) {
-          body.classList.add(savedTheme);
+      // Проверяем, есть ли сохранённая тема
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme) {
+        body.classList.add(savedTheme);
+      }
+
+      // Переключение темы
+      themeToggle.addEventListener("click", () => {
+        if (body.classList.contains("dark-theme")) {
+          body.classList.remove("dark-theme");
+          localStorage.setItem("theme", ""); // Очищаем тему
+        } else {
+          body.classList.add("dark-theme");
+          localStorage.setItem("theme", "dark-theme"); // Сохраняем тёмную тему
         }
-
-        // Переключение темы
-        themeToggle.addEventListener("click", () => {
-          if (body.classList.contains("dark-theme")) {
-            body.classList.remove("dark-theme");
-            localStorage.setItem("theme", ""); // Очищаем тему
-          } else {
-            body.classList.add("dark-theme");
-            localStorage.setItem("theme", "dark-theme"); // Сохраняем тёмную тему
-          }
-        });
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
